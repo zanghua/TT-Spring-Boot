@@ -10,4 +10,5 @@
     <!-- 启用spring mvc 注解 -->
     <!-- 引入属性文件 -->
     <context:property-placeholder location="classpath:applicaton.properties" />
+    <import resource="spring-mybaits.xml"/>
 </beans>
