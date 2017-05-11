@@ -17,4 +17,8 @@ public class UserService{
     public User findUserById(int id) {
         return this.userMapper.selectByPrimaryKey(id);
     }
+
+    public void setUserMapper(UserMapper userMapper) {
+        this.userMapper = userMapper;
+    }
 }
